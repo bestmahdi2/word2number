@@ -1,5 +1,6 @@
 # word2number
 Python script and GUI to convert word numbers to digit numbers in both English and Persian.
+
 این برنامه پایتون با ظاهر گرافیکی برای تبدیل عدد با حروف به عدد با رقم به زبان فارسی و انگلیسی است.
 
 ***
@@ -27,7 +28,7 @@ Rememmber :
 To convert py file to executable in windows and linux use command like (in cmd,powershell,terminal or similar):
 > cd word2number
 > pyinstaller --onefile --noconsole --icon='.\ProgramFile\Pirate Icon 21.ico' .\compiler.py
----
+
 To convert ui file to py :
 > cd ProgramFile 
 > Pyuic5 -x -o Amirza_ui.py Amirza_ui.ui
