@@ -11,12 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>NumberChanger</string>
-  </property>
-  <property name="windowIcon">
-   <iconset>
-    <normalon>:/newPrefix/Pirate Icon 21.ico</normalon>
-   </iconset>
+   <string>Word2Number</string>
   </property>
   <property name="windowOpacity">
    <double>0.978000000000000</double>
@@ -280,8 +275,6 @@ you need to enter at least one number before hundred , million and thousand , ot
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="sourcefile_rc.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

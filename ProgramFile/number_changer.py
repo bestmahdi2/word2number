@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'number_changer.ui'
+# Form implementation generated from reading ui file '.\number_changer.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.0
 #
@@ -14,9 +14,6 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(559, 299)
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/newPrefix/Pirate Icon 21.ico"), QtGui.QIcon.Normal, QtGui.QIcon.On)
-        MainWindow.setWindowIcon(icon)
         MainWindow.setWindowOpacity(0.978)
         MainWindow.setStyleSheet("color:#FCE400;background-color:#3C3F41;")
         MainWindow.setDocumentMode(True)
@@ -110,7 +107,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "NumberChanger"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Word2Number"))
         self.lineEdit.setStatusTip(_translate("MainWindow", "You can type here"))
         self.lineEdit.setPlaceholderText(_translate("MainWindow", "Enter your number here..."))
         self.label.setText(_translate("MainWindow", "Please enter your number in characters down below:"))
@@ -131,7 +128,6 @@ class Ui_MainWindow(object):
         self.radioButton_E.setToolTip(_translate("MainWindow", "Shortcut : CTRL + E"))
         self.radioButton_E.setStatusTip(_translate("MainWindow", "Change language"))
         self.radioButton_E.setText(_translate("MainWindow", "English"))
-# import sourcefile_rc_rc
 
 
 if __name__ == "__main__":
