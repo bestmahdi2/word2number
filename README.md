@@ -4,9 +4,9 @@ This is a python program with GUI to convert word numbers to digit numbers in bo
 این یک برنامه پایتون با ظاهر گرافیکی برای تبدیل عدد با حروف به عدد با رقم به زبان فارسی و انگلیسی است
 
 ***
-IIf your not a developer just download the compiler.exe file in Releases(Github)
+IIf your not a developer just download the compiler.exe file in Release(Github)
 
-اگر برنامه نویس نیستید ، در قسمت ریلیزیز در سایت گیت هاب فایل اجرایی رو دانلود و باز کنید.
+اگر برنامه نویس نیستید ، در قسمت ریلیز در سایت گیت هاب فایل اجرایی رو دانلود و باز کنید.
 ***
 
 Otherwise, you may want to translate letters and words with yours.
