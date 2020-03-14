@@ -10,6 +10,18 @@
     <height>299</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>559</width>
+    <height>299</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>559</width>
+    <height>299</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Word2Number</string>
   </property>

@@ -14,6 +14,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(559, 299)
+        MainWindow.setMinimumSize(QtCore.QSize(559, 299))
+        MainWindow.setMaximumSize(QtCore.QSize(559, 299))
         MainWindow.setWindowOpacity(0.978)
         MainWindow.setStyleSheet("color:#FCE400;background-color:#3C3F41;")
         MainWindow.setDocumentMode(True)
