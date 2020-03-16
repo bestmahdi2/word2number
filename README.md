@@ -31,6 +31,11 @@ Persian_calculator.py : Main program for Persian words.
 
 English_calculator.py : Main program for English words.
 
+## How to use :
+Type your numbers in words 
+
+برای استفاده ، اعداد را با حروف وارد کنید
+
 ## Notice : 
 To convert py file to executable in windows and linux use these commands (in cmd,powershell,terminal or similar):
 > cd word2number
