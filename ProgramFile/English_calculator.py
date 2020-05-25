@@ -135,12 +135,23 @@ class EnglishNumChangeClass:
         self.counter(hundred_str , 1)
         self.duplicate_error(self.Hundred)
 if __name__ == "__main__":
-        pass
-        # s = Ui()
-        # try:
-        #     m = EnglishNumChangeClass("two million")
-        #     m.results()
-        #     print(m.num)
-        # except :
-        #     print("wrong entrance")
+    def exiter():
+        ans = input("\nDo you want to continue?(yes,no)\n> ")
+        if ans.lower().replace(" ", "").replace(",", "") == "yes":
+            print("\n-----------------------------------------\n")
+            program()
+        else:
+            exit()
+    def program():
+        Enter = input("Input your number in letters : ")
+        try:
+            m = EnglishNumChangeClass(Enter)
+            m.results()
+            print(m.num)
+            exiter()
 
+        except :
+            print("\nWrong Entrance :\\")
+            exiter()
+
+    program()

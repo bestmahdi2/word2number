@@ -128,7 +128,22 @@ class PersianNumChangeClass:
         self.duplicate_error(self.Hundred)
 
 if __name__ == "__main__":
-        pass
-        # m = PersianNumChangeClass("یک صد میلیون")
-        # m.results()
-        # print(m.num)
+        def exiter():
+            ans = input("میخواهید ادامه دهید؟(بله،خیر)> ".rjust(100, " "))
+            if ans.replace(" ", "").replace(",", "") == "بله":
+                print("\n-----------------------------------------\n")
+                program()
+            else:
+                exit()
+        def program():
+            Enter = input("عدد مورد نظر را به حروف وارد کنید : ".rjust(100," "))
+            try:
+                m = PersianNumChangeClass(Enter)
+                m.results()
+                print(m.num)
+                exiter()
+            except:
+                print("\nورودی نامعتبر")
+                exiter()
+
+        program()
